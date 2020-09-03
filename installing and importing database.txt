@@ -1,0 +1,36 @@
+1. Install latest version of Xampp from here: https://www.apachefriends.org/download.html
+
+here is a step by step guide (I don't think you need it).
+https://www.wikihow.com/Install-XAMPP-for-Windows
+
+2.Open xampp control panel and 
+- 2.1 Start Apache
+- 2.2 Start MySql
+
+This is how this process looks like:
+https://www.webucator.com/how-to/how-install-start-test-xampp-on-windows-setup-of-introduction-php.cfm
+
+(To Open xampp control panel you need to go to C drive then Xampp inside this folder look for xampp-control sth.)
+
+3. Now click MySql Admin this will take you to the browser 
+OR Just type this in Browser:
+http://localhost/phpmyadmin 
+
+4. Import Database.
+ - in browser's left side there is an option new: which will create new database
+ create new database and name it "redngreenchillijava" and press Create button.
+ - I have sent you a redngreenchillijava.sql file, you have to import this file.
+ - Being in same screen click import on top tabbar and browse redngreenchillijava.sql file
+For reference see this:
+https://blog.templatetoaster.com/xampp-phpmyadmin/
+
+and start following from this section: 
+Import / Export Database on XAMPP phpMyAdmin 
+
+5. Open the project now in netbeans or in your pc. If you are opening from pc you need jdk to be installed. Then go to project files then dist folder in that folder look for a jar file and open it.
+
+6. If there seems any problem or if you need more explanation feel free to message back.	
+
+
+username=admin
+password=123

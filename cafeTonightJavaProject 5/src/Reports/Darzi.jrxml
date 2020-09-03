@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="300" pageHeight="500" columnWidth="290" leftMargin="5" rightMargin="5" topMargin="5" bottomMargin="5" uuid="0f43988c-5f25-43a2-8a87-31836581c0d5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="490" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="290" height="74" uuid="d47c7954-1640-452e-ac43-1d15ad98f03f"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Algerian" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Two Star Stitch 
+&
+Cloth Corner
+________________________________________]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="74" width="290" height="26" uuid="ecd27735-86ce-4b47-ad0c-b59808047e04"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="113" y="220" width="42" height="20" uuid="53cfea9e-af84-41f5-9386-631f80d17dfd"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Length]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="415" width="290" height="75" uuid="0fa6500b-5cc6-4fe1-9b89-89eec3783060"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12"/>
+				</textElement>
+				<text><![CDATA[Address: Bank Square Chowk Near N.B.P Bank 
+Larkana
+Contact: 03002060190
+______________________________________
+Developer: Sami Shaikh 	Cell: 03053729551]]></text>
+			</staticText>
+		</band>
+	</title>
+</jasperReport>

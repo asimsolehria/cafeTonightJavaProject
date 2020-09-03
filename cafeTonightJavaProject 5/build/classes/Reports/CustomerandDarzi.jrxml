@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="216" pageHeight="360" whenNoDataType="BlankPage" columnWidth="212" leftMargin="2" rightMargin="2" topMargin="2" bottomMargin="2" uuid="1294f456-695c-4f44-a0de-91f40b101029">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="106"/>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="212" height="42" uuid="0f115f15-9e3a-42c2-a369-9e1f64fa68ae"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Algerian" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Two Star Stitch 
+&
+Cloth Corner]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="44" y="0" width="100" height="20" uuid="bd8bfd63-15b3-4a4f-b87a-04684183ffeb"/>
+				<text><![CDATA[Static text]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="34" y="20" width="100" height="20" uuid="857ff145-406e-4e4e-b413-716d4562ffee"/>
+				<text><![CDATA[لمبائي]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="34" y="0" width="100" height="20" uuid="f4432be6-aef1-4ec5-848e-8d16bb640607"/>
+				<text><![CDATA[Static text]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="239" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="91" width="212" height="71" uuid="4be1f1d1-ea12-4720-8e2a-12ca6d8b5950"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<text><![CDATA[Address: Bank Square Chowk Near N.B.P Bank 
+Larkana
+Contact: 03002060190
+______________________________________
+Developer: Sami Shaikh 	Cell: 03053729551]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
